@@ -1,6 +1,6 @@
 # This file is used by goreleaser
 
-ARG TARGETPLATFORM
 FROM scratch
+ARG TARGETPLATFORM
 ENTRYPOINT ["/sample"]
 COPY $TARGETPLATFORM/sample /
