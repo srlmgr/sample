@@ -27,4 +27,3 @@ updates:
     commit-message:
       prefix: "gha"
       include: "scope"
-
